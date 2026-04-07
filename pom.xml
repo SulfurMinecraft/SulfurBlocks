@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>hu.jgj52.SulfurBlocks</groupId>
+    <artifactId>SulfurBlocks</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>25</maven.compiler.source>
+        <maven.compiler.target>25</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>jgj52-releases</id>
+            <url>https://maven.jgj52.hu/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>jgj52-snapshots</id>
+            <url>https://maven.jgj52.hu/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>jgj52-repo</id>
+            <url>https://maven.jgj52.hu/repository/maven-releases/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>hu.jgj52</groupId>
+            <artifactId>Sulfur</artifactId>
+            <version>1.4</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>
