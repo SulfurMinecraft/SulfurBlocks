@@ -2,7 +2,7 @@ package hu.jgj52.SulfurBlocks;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import hu.jgj52.Sulfur.Utils.Plugin;
+import dev.sulfurmc.Sulfur.Utils.Plugin;
 import hu.jgj52.SulfurBlocks.Listeners.BlockBreakListener;
 import net.minestom.server.instance.block.Block;
 

@@ -2,9 +2,9 @@ package hu.jgj52.SulfurBlocks.Listeners;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import hu.jgj52.Sulfur.Sulfur;
-import hu.jgj52.Sulfur.Utils.Listeners.Event;
-import hu.jgj52.Sulfur.Utils.Listeners.Listener;
+import dev.sulfurmc.Sulfur.Sulfur;
+import dev.sulfurmc.Sulfur.Utils.Listeners.Event;
+import dev.sulfurmc.Sulfur.Utils.Listeners.Listener;
 import hu.jgj52.SulfurBlocks.SulfurBlocks;
 import net.kyori.adventure.key.Key;
 import net.minestom.server.MinecraftServer;
